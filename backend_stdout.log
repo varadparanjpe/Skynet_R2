@@ -186,3 +186,189 @@ INFO:     127.0.0.1:53348 - "OPTIONS /custom_simulate HTTP/1.1" 200 OK
 /Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
   warnings.warn(
 INFO:     127.0.0.1:53348 - "POST /custom_simulate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53400 - "OPTIONS /resolve_shipment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53400 - "POST /resolve_shipment HTTP/1.1" 200 OK
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+INFO:     127.0.0.1:53400 - "GET /simulate HTTP/1.1" 200 OK
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+INFO:     127.0.0.1:53401 - "POST /custom_simulate HTTP/1.1" 200 OK
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+INFO:     127.0.0.1:53417 - "GET /simulate HTTP/1.1" 200 OK
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+INFO:     127.0.0.1:53421 - "POST /custom_simulate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53469 - "OPTIONS /operator_action HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53469 - "POST /operator_action HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53469 - "POST /operator_action HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53469 - "POST /operator_action HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53469 - "POST /operator_action HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53469 - "POST /operator_action HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53469 - "POST /operator_action HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53470 - "POST /operator_action HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53477 - "POST /operator_action HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53479 - "POST /operator_action HTTP/1.1" 200 OK
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+INFO:     127.0.0.1:53540 - "GET /simulate HTTP/1.1" 200 OK
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+INFO:     127.0.0.1:53540 - "GET /simulate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53555 - "GET /audit_logs HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53555 - "GET /audit_logs HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53565 - "GET /audit_logs HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53565 - "GET /audit_logs HTTP/1.1" 404 Not Found
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+Agent Error: Traceback (most recent call last):
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/api/main.py", line 67, in _process_shipment_with_agent
+    result = agent.run(shipment)
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/agent/graph.py", line 64, in run
+    result = self.app.invoke(initial_state)
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/langgraph/pregel/main.py", line 3094, in invoke
+    for chunk in self.stream(
+                 ~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<10 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ):
+    ^
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/langgraph/pregel/main.py", line 2669, in stream
+    for _ in runner.tick(
+             ~~~~~~~~~~~^
+        [t for t in loop.tasks.values() if not t.writes],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        schedule_task=loop.accept_push,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/langgraph/pregel/_runner.py", line 167, in tick
+    run_with_retry(
+    ~~~~~~~~~~~~~~^
+        t,
+        ^^
+    ...<10 lines>...
+        },
+        ^^
+    )
+    ^
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/langgraph/pregel/_retry.py", line 71, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/langgraph/_internal/_runnable.py", line 656, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/langgraph/_internal/_runnable.py", line 400, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/agent/graph.py", line 156, in node_guardrails
+    final_decision = GuardrailManager.evaluate(decision, ctx)
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/guardrails/manager.py", line 28, in evaluate
+    safe_decision["reasoning"] += " | Escalate triggered: Cannot autonomously reroute SEA vessels."
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'reasoning'
+During task with name 'guardrails' and id '4ab196b0-5e27-f670-29ac-35bcfb6d9f75'
+
+INFO:     127.0.0.1:53574 - "GET /simulate HTTP/1.1" 500 Internal Server Error
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+Agent Error: Traceback (most recent call last):
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/api/main.py", line 67, in _process_shipment_with_agent
+    result = agent.run(shipment)
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/agent/graph.py", line 64, in run
+    result = self.app.invoke(initial_state)
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/langgraph/pregel/main.py", line 3094, in invoke
+    for chunk in self.stream(
+                 ~~~~~~~~~~~^
+        input,
+        ^^^^^^
+    ...<10 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ):
+    ^
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/langgraph/pregel/main.py", line 2669, in stream
+    for _ in runner.tick(
+             ~~~~~~~~~~~^
+        [t for t in loop.tasks.values() if not t.writes],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        schedule_task=loop.accept_push,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/langgraph/pregel/_runner.py", line 167, in tick
+    run_with_retry(
+    ~~~~~~~~~~~~~~^
+        t,
+        ^^
+    ...<10 lines>...
+        },
+        ^^
+    )
+    ^
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/langgraph/pregel/_retry.py", line 71, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/langgraph/_internal/_runnable.py", line 656, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/langgraph/_internal/_runnable.py", line 400, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/agent/graph.py", line 156, in node_guardrails
+    final_decision = GuardrailManager.evaluate(decision, ctx)
+  File "/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/guardrails/manager.py", line 28, in evaluate
+    safe_decision["reasoning"] += " | Escalate triggered: Cannot autonomously reroute SEA vessels."
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'reasoning'
+During task with name 'guardrails' and id '2add37ed-6977-94ec-8451-c870c38265d1'
+
+INFO:     127.0.0.1:53588 - "GET /simulate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53593 - "GET /simulate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53593 - "GET /audit_logs HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53593 - "GET /audit_logs HTTP/1.1" 404 Not Found
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+INFO:     127.0.0.1:53606 - "GET /simulate HTTP/1.1" 200 OK
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/varadparanjpe/Downloads/ai_logistics_control_tower_WORKING_FINAL/backend/venv/lib/python3.14/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     127.0.0.1:53606 - "GET /simulate HTTP/1.1" 200 OK
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [20731]

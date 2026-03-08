@@ -114,3 +114,20 @@ def resolve_shipment(req: LearnRequest):
     
     return {"status": "success", "message": f"Learned from shipment {req.shipment_id}"}
 
+
+@app.get("/audit_logs")
+def get_audit_logs():
+    """Returns the most recent decision logs for the transaction overview page."""
+    _, audit = get_agent()
+    records = audit.query_recent_decisions(limit=50)
+    return [{
+        "id": r.id,
+        "shipment_id": r.shipment_id,
+        "timestamp": r.timestamp.isoformat(),
+        "decision": r.decision,
+        "confidence": r.confidence,
+        "reasoning": r.agent_reasoning,
+        "cost_impact_usd": r.cost_impact_usd,
+        "actual_outcome": r.actual_outcome,
+        "predicted_delay_prob": r.predicted_delay_prob
+    } for r in records]

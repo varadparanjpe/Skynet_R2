@@ -1,13 +1,21 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { ArrowLeft, GitMerge, AlertCircle, ShieldAlert } from 'lucide-react';
 import { GlowingEffect } from '../components/ui/glowing-effect';
 
 export default function HumanControlPage() {
   const navigate = useNavigate();
-  const [shipmentIdInput, setShipmentIdInput] = useState("");
+  const [searchParams] = useSearchParams();
+  const [shipmentIdInput, setShipmentIdInput] = useState(searchParams.get("shipment_id") || "");
   const [decision, setDecision] = useState("reroute");
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const sid = searchParams.get("shipment_id");
+    if (sid) {
+       setShipmentIdInput(sid);
+    }
+  }, [searchParams]);
 
   const handleManualIntervention = (e: React.FormEvent) => {
     e.preventDefault();

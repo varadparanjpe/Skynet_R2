@@ -1,19 +1,28 @@
 import { useEffect, useState } from "react"
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route, useNavigate } from "react-router-dom"
 import { HeroSection } from "./components/ui/hero-section-dark"
 import { Dashboard } from "./components/Dashboard"
 import { CustomSimulator } from "./components/CustomSimulator"
 import HumanControlPage from "./pages/HumanControlPage"
+import { TransactionLogsPage } from "./pages/TransactionLogsPage"
 
 export default function App() {
   const [data, setData] = useState<any>(null)
   const [loading, setLoading] = useState(false)
+  const navigate = useNavigate();
+
+  const handleAgentResponse = (res: any) => {
+    setData(res);
+    if (res?.result?.decision === "escalate_to_human") {
+        navigate(`/human-control?shipment_id=${res.shipment.shipment_id}`);
+    }
+  }
 
   const fetchRandomSimulate = () => {
     setLoading(true)
     fetch("http://127.0.0.1:8000/simulate")
       .then(r => r.json())
-      .then(setData)
+      .then(handleAgentResponse)
       .finally(() => setLoading(false))
   }
 
@@ -25,7 +34,7 @@ export default function App() {
       body: JSON.stringify(customData)
     })
       .then(r => r.json())
-      .then(setData)
+      .then(handleAgentResponse)
       .finally(() => setLoading(false))
   }
 
@@ -94,6 +103,7 @@ export default function App() {
         </div>
       } />
       <Route path="/human-control" element={<HumanControlPage />} />
+      <Route path="/transactions" element={<TransactionLogsPage />} />
     </Routes>
   )
 }

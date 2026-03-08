@@ -70,6 +70,12 @@ export function Dashboard({
         </h2>
         <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
           <button 
+            onClick={() => navigate('/transactions')}
+            style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'transparent', border: '1px solid #60a5fa', color: '#60a5fa', padding: '0.5rem 1rem', borderRadius: '0.5rem', cursor: 'pointer', fontWeight: 'bold' }}
+          >
+            <Layers size={18} /> Transaction Logs
+          </button>
+          <button 
             onClick={() => navigate('/human-control')}
             style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'transparent', border: '1px solid #ef4444', color: '#ef4444', padding: '0.5rem 1rem', borderRadius: '0.5rem', cursor: 'pointer', fontWeight: 'bold' }}
           >

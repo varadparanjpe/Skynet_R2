@@ -15,16 +15,16 @@ class GuardrailManager:
         # Guardrail 1 - Confidence Threshold Control
         if safe_decision.get("confidence", 0.0) < 0.65:
             safe_decision["decision"] = "escalate_to_human"
-            safe_decision["reasoning"] += " | Escalate triggered: Confidence < 0.65."
+            safe_decision["reasoning_trace"] = safe_decision.get("reasoning_trace", "") + " | Escalate triggered: Confidence < 0.65."
 
         # Guardrail 2 - Cost Impact Limitation
         if safe_decision.get("cost_impact_usd", 0.0) > context.cost_constraints_usd:
             safe_decision["decision"] = "escalate_to_human"
-            safe_decision["reasoning"] += f" | Escalate triggered: Cost exceeds {context.cost_constraints_usd} limit."
+            safe_decision["reasoning_trace"] = safe_decision.get("reasoning_trace", "") + f" | Escalate triggered: Cost exceeds {context.cost_constraints_usd} limit."
             
         # Guardrail 5 - Safety Policy Enforcement
         if safe_decision["decision"] == "reroute" and context.transport_mode == "SEA":
             safe_decision["decision"] = "escalate_to_human"
-            safe_decision["reasoning"] += " | Escalate triggered: Cannot autonomously reroute SEA vessels."
+            safe_decision["reasoning_trace"] = safe_decision.get("reasoning_trace", "") + " | Escalate triggered: Cannot autonomously reroute SEA vessels."
 
         return safe_decision
